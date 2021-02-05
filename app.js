@@ -23,19 +23,6 @@ function clickHandler()
 {
     leftAmount.innerText = InputCash.value - InputBill.value;
 
-    // let k = [2000,500,100,20,10,5,1];
-    // let o = [7];
-    // for(var i=0;i<k.length;i++)
-    // {
-    //     for(var j=0;j<7;j++)
-    //     {
-    //         var q = Math.floor(leftAmount.value/k[i]);
-    //         var r = leftAmount.value - (q * k[i]);
-    //         o[j] = q;
-    //         q=r; console.log(o[j]);
-            
-    //     }
-    // }
 
     var remainder = leftAmount.value;
     for(var i=0;i<7;i++)
