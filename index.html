@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="center">
+    <h1 style="font-size: 3rem;">Cash Register</h1>
+    <input oninput="showBox()" id="inpBill" placeholder="Total bill amount"></input><br>
+    
+    <input id="inpCash" placeholder="Cash given by customer"></input>
+    <button id="buttonn">Calculate</button>
+    <h2>Balance: </h2>
+    <output id="returnAmount"></output>
+    </div>
+
+    <table>
+        <tr>
+            <th><img src="images/2000.jpg"/></th>
+            <th><output id="two"></output></th>
+            <th><img src="images/500.jpg"/></th>
+            <th><output id="fivehun"></output></th>
+            <th><img src="images/100.png"/></th>
+            <th><output id="onehun"></output></th>
+        </tr>
+        <tr>
+            <th><img src="images/20.jpg"/></th>
+            <th><output id="twenty"></output></th>
+            <th><img src="images/10.jpg"/></th>
+            <th><output id="ten"></output></th>
+            <th><img src="images/5.jpg"/></th>
+            <th><output id="five"></output></th>
+        </tr>
+        <tr>  
+            <th><img src="images/1.jpg"/></th>
+            <th><output id="one"></output></th>
+        </tr>
+    </table>
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
